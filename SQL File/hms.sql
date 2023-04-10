@@ -40,7 +40,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`, `updationDate`) VALUES
-(1, 'admin', '12345', '20-12-2021 11:42:05 AM');
+(1, 'admin', '12345', '20-03-2023 11:42:05 AM');
 
 -- --------------------------------------------------------
 
@@ -67,7 +67,7 @@ CREATE TABLE `appointment` (
 --
 
 INSERT INTO `appointment` (`id`, `doctorSpecialization`, `doctorId`, `userId`, `consultancyFees`, `appointmentDate`, `appointmentTime`, `postingDate`, `userStatus`, `doctorStatus`, `updationDate`) VALUES
-(5, 'Dermatologist', 9, 7, 500, '2021-12-20', '5:30 PM', '2021-12-20 18:41:34', 1, 0, '2021-12-20 18:48:30');
+(5, 'Dermatologist', 9, 7, 500, '2023-03-20', '5:30 PM', '2023-03-20 18:41:34', 1, 0, '2023-03-20 18:48:30');
 
 -- --------------------------------------------------------
 
